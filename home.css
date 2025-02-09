@@ -1,23 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-    body{
-        font-family: 'Poppins';
-    }
-
-.col-md-2{
-    padding: 10px;
+body{
+    font-family: "Barlow Semi Condensed";
+}
+.primeira-navbar{
+    background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/vila-belmiro-e1709752993188.jpg?w=1024);
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.908);
 }
 
+
+.col-md-1{
+    padding: 10px;
+    align-items: center;
+}
 a img {
     width: 80px;
     padding: 10px;
     display: block;
-    align-items: center;
 }
-
-a img:hover{
+a:hover, a img:hover{
     transition: all 0.6s ease-in-out;
     transform: scale(1.2);
     cursor: pointer;
     filter: drop-shadow(0 0 10px #ffd95ac0);
+}
+
+i{
+    color: white;
+}
+.col-md-10 img{
+max-width: 100%;
+
 }
